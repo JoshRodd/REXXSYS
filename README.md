@@ -1,10 +1,5 @@
 # REXXSYS
-REXXSYS
-Version 1.1191.A232
-
-# HOWARD
-HOWARD the FONT
-Version 3.6.1
+REXXSYS Version 1.1191.A232
 
 Disassembly: Josh Rodd
 
