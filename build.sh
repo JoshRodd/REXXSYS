@@ -10,7 +10,7 @@ if [ ! -f rexxsys.sys ]; then
 fi
 
 if cmp rexxsys.bin rexxsys.sys; then
-    rm -f rexxsys.bin rexxsys.sys
+    rm -f rexxsys.bin rexxsys.sys rexxsys.lst
     printf "REXXSYS.ASM matches REXXSYS.SYS\n"
 else
     diff <(xxd rexxsys.sys) <(xxd rexxsys.bin) | less
